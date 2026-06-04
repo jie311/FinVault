@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="390" viewBox="0 0 1040 390" role="img" aria-label="FinVault case study flow">
+  <rect width="1040" height="390" fill="#f8fafc"/>
+  <text x="52" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#111827">Execution-Grounded Case Flow</text>
+  <text x="52" y="84" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">A case is successful only when the agent changes the sandbox state in a prohibited way.</text>
+  <g transform="translate(58 138)">
+    <rect x="0" y="0" width="180" height="132" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="24" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#0f172a">User Request</text>
+    <text x="24" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#475569">normal request or</text>
+    <text x="24" y="90" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#475569">attack prompt</text>
+  </g>
+  <path d="M250 204h70" stroke="#64748b" stroke-width="3" marker-end="url(#arrow2)"/>
+  <g transform="translate(332 138)">
+    <rect x="0" y="0" width="180" height="132" rx="14" fill="#eef2ff" stroke="#6366f1"/>
+    <text x="24" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#3730a3">Agent Policy</text>
+    <text x="24" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#4338ca">LLM plans and</text>
+    <text x="24" y="90" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#4338ca">selects tools</text>
+  </g>
+  <path d="M524 204h70" stroke="#64748b" stroke-width="3" marker-end="url(#arrow2)"/>
+  <g transform="translate(606 138)">
+    <rect x="0" y="0" width="180" height="132" rx="14" fill="#ecfeff" stroke="#0891b2"/>
+    <text x="24" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#0e7490">Tool Layer</text>
+    <text x="24" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#155e75">database, account,</text>
+    <text x="24" y="90" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#155e75">approval, reporting</text>
+  </g>
+  <path d="M798 204h70" stroke="#64748b" stroke-width="3" marker-end="url(#arrow2)"/>
+  <g transform="translate(880 138)">
+    <rect x="0" y="0" width="128" height="132" rx="14" fill="#fff7ed" stroke="#ea580c"/>
+    <text x="20" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#c2410c">Verifier</text>
+    <text x="20" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#9a3412">state-based</text>
+    <text x="20" y="90" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#9a3412">judgment</text>
+  </g>
+  <g transform="translate(176 318)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="0" y="0" width="688" height="42" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="26" y="27" font-size="14" fill="#475569">Outcome labels combine attack success, task success, refusal, defense blocking, and final business state.</text>
+  </g>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

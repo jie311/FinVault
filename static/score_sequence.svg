@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="430" viewBox="0 0 1180 430" role="img" aria-label="FinVault overview">
+  <rect width="1180" height="430" fill="#f8fafc"/>
+  <text x="56" y="58" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800" fill="#0f172a">From Prompt to Financial State Change</text>
+  <text x="56" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#475569">FinVault evaluates whether a tool-using financial agent takes unsafe actions inside sandboxed business workflows.</text>
+  <g transform="translate(54 145)">
+    <rect x="0" y="0" width="200" height="118" rx="14" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+    <text x="24" y="38" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#0e7490">1. Scenario</text>
+    <text x="24" y="70" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#155e75">31 regulated financial</text>
+    <text x="24" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#155e75">workflow environments</text>
+    <path d="M212 59h70" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(336 145)">
+    <rect x="0" y="0" width="200" height="118" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="24" y="38" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#3730a3">2. Agent</text>
+    <text x="24" y="70" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#4338ca">LLM policy plus tools,</text>
+    <text x="24" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#4338ca">state, and memory</text>
+    <path d="M212 59h70" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(618 145)">
+    <rect x="0" y="0" width="200" height="118" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="24" y="38" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#15803d">3. Execution</text>
+    <text x="24" y="70" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#166534">Tool calls mutate</text>
+    <text x="24" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#166534">business state</text>
+    <path d="M212 59h70" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(900 145)">
+    <rect x="0" y="0" width="220" height="118" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <text x="24" y="38" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#c2410c">4. Verification</text>
+    <text x="24" y="70" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#9a3412">Unsafe outcomes are</text>
+    <text x="24" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#9a3412">checked against state</text>
+  </g>
+  <g transform="translate(58 326)">
+    <rect x="0" y="0" width="246" height="54" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="20" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#0f172a">31</text>
+    <text x="60" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#475569">sandbox scenarios</text>
+    <rect x="284" y="0" width="246" height="54" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="304" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#0f172a">214</text>
+    <text x="356" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#475569">paired attack/normal cases</text>
+    <rect x="568" y="0" width="246" height="54" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="588" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#0f172a">856</text>
+    <text x="640" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#475569">synthesized attacks</text>
+    <rect x="852" y="0" width="246" height="54" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="872" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#0f172a">310</text>
+    <text x="924" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#475569">validated JSON files</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

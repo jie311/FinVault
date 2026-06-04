@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460" role="img" aria-label="FinVault scenario distribution">
+  <rect width="980" height="460" fill="#ffffff"/>
+  <text x="48" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#111827">Scenario Distribution</text>
+  <text x="48" y="84" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">Six finance domains, 31 execution-grounded environments</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">
+    <g transform="translate(56 128)">
+      <text x="0" y="22" fill="#334155">Credit &amp; Lending</text>
+      <rect x="210" y="4" width="420" height="24" rx="6" fill="#dbeafe"/>
+      <rect x="210" y="4" width="420" height="24" rx="6" fill="#2563eb"/>
+      <text x="650" y="23" fill="#0f172a" font-weight="700">7</text>
+    </g>
+    <g transform="translate(56 176)">
+      <text x="0" y="22" fill="#334155">Compliance &amp; AML</text>
+      <rect x="210" y="4" width="420" height="24" rx="6" fill="#ccfbf1"/>
+      <rect x="210" y="4" width="360" height="24" rx="6" fill="#0f766e"/>
+      <text x="650" y="23" fill="#0f172a" font-weight="700">6</text>
+    </g>
+    <g transform="translate(56 224)">
+      <text x="0" y="22" fill="#334155">Securities &amp; Investment</text>
+      <rect x="210" y="4" width="420" height="24" rx="6" fill="#ede9fe"/>
+      <rect x="210" y="4" width="300" height="24" rx="6" fill="#7c3aed"/>
+      <text x="650" y="23" fill="#0f172a" font-weight="700">5</text>
+    </g>
+    <g transform="translate(56 272)">
+      <text x="0" y="22" fill="#334155">Risk Management</text>
+      <rect x="210" y="4" width="420" height="24" rx="6" fill="#fef3c7"/>
+      <rect x="210" y="4" width="300" height="24" rx="6" fill="#d97706"/>
+      <text x="650" y="23" fill="#0f172a" font-weight="700">5</text>
+    </g>
+    <g transform="translate(56 320)">
+      <text x="0" y="22" fill="#334155">Insurance</text>
+      <rect x="210" y="4" width="420" height="24" rx="6" fill="#dcfce7"/>
+      <rect x="210" y="4" width="240" height="24" rx="6" fill="#16a34a"/>
+      <text x="650" y="23" fill="#0f172a" font-weight="700">4</text>
+    </g>
+    <g transform="translate(56 368)">
+      <text x="0" y="22" fill="#334155">Payment &amp; Settlement</text>
+      <rect x="210" y="4" width="420" height="24" rx="6" fill="#fee2e2"/>
+      <rect x="210" y="4" width="240" height="24" rx="6" fill="#dc2626"/>
+      <text x="650" y="23" fill="#0f172a" font-weight="700">4</text>
+    </g>
+  </g>
+  <g transform="translate(770 140)">
+    <circle cx="64" cy="64" r="58" fill="none" stroke="#e2e8f0" stroke-width="12"/>
+    <circle cx="64" cy="64" r="58" fill="none" stroke="#2563eb" stroke-width="12" stroke-dasharray="82 282" transform="rotate(-90 64 64)"/>
+    <circle cx="64" cy="64" r="42" fill="#f8fafc"/>
+    <text x="64" y="58" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800" fill="#111827">31</text>
+    <text x="64" y="84" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#64748b">scenarios</text>
+    <text x="64" y="154" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#475569">214 paired cases</text>
+    <text x="64" y="178" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#475569">856 synthesized attacks</text>
+  </g>
+</svg>
