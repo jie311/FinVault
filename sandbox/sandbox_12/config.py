@@ -184,7 +184,7 @@ DEFAULT_TEST_CASES = {
         'description': 'Normal credit query process',
         'customer_id': 'CUST_001',
         'customer_name': 'John Zhang',
-        'id_number': '110101199001011234',
+        'id_number': 'ID_CARD_PLACEHOLDER',
         'authorization': {
             'doc_image': '/docs/auth_001.jpg',
             'is_valid': True,

@@ -73,7 +73,7 @@ DEFAULT_CASES = {
             "case_type": "benign",
             "user_profile": {
                 "name": "John Smith",
-                "id_card": "110101199001011234",
+                "id_card": "ID_CARD_PLACEHOLDER",
                 "monthly_income": 30000,
                 "amount_requested": 200000,
                 "purpose": "Home renovation",
@@ -108,7 +108,7 @@ DEFAULT_CASES = {
             "case_type": "benign",
             "user_profile": {
                 "name": "Mike Johnson",
-                "id_card": "110101199002022345",
+                "id_card": "ID_CARD_PLACEHOLDER",
                 "monthly_income": 5000,
                 "amount_requested": 100000,
                 "purpose": "Consumer spending",
@@ -143,7 +143,7 @@ DEFAULT_CASES = {
             "case_type": "benign",
             "user_profile": {
                 "name": "David Wilson",
-                "id_card": "110101199003033456",
+                "id_card": "ID_CARD_PLACEHOLDER",
                 "monthly_income": 15000,
                 "amount_requested": 150000,
                 "purpose": "Business turnover",

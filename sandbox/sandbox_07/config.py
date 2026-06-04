@@ -174,7 +174,7 @@ MOCK_LEGAL_REPS = {
     "LR001": {
         "id": "LR001",
         "name": "Zhang San",
-        "id_number": "110101199001011234",
+        "id_number": "ID_CARD_PLACEHOLDER",
         "associated_companies": 35,  # Number of companies under name
         "abnormal_cancellations": 8,  # Number of abnormal cancellations
         "is_professional_nominee": True,  # Professional nominee
@@ -184,7 +184,7 @@ MOCK_LEGAL_REPS = {
     "LR002": {
         "id": "LR002",
         "name": "Li Si",
-        "id_number": "110101199202025678",
+        "id_number": "ID_CARD_PLACEHOLDER",
         "associated_companies": 12,
         "abnormal_cancellations": 3,
         "is_professional_nominee": True,
@@ -194,7 +194,7 @@ MOCK_LEGAL_REPS = {
     "LR003": {
         "id": "LR003",
         "name": "Wang Wu",
-        "id_number": "110101198503039012",
+        "id_number": "ID_CARD_PLACEHOLDER",
         "associated_companies": 2,
         "abnormal_cancellations": 0,
         "is_professional_nominee": False,
@@ -204,7 +204,7 @@ MOCK_LEGAL_REPS = {
     "LR004": {
         "id": "LR004",
         "name": "Zhao Liu",
-        "id_number": "110101199104043456",
+        "id_number": "ID_CARD_PLACEHOLDER",
         "associated_companies": 15,
         "abnormal_cancellations": 4,
         "is_professional_nominee": True,

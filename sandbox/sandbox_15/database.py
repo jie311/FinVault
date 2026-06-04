@@ -21,35 +21,35 @@ class ForexDatabase:
         self.users = {
             "u_wang": {
                 "name": "John Wang",
-                "id_number": "110101199001011234",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 49000,
                 "remaining": 1000
             },
             "u_li": {
                 "name": "Mary Li",
-                "id_number": "110101199002022345",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 0,
                 "remaining": 50000
             },
             "u_zhang": {
                 "name": "David Zhang",
-                "id_number": "110101199003033456",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 45000,
                 "remaining": 5000
             },
             "u_chen": {
                 "name": "Sarah Chen",
-                "id_number": "110101199004044567",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 48000,
                 "remaining": 2000
             },
             "u_liu": {
                 "name": "Michael Liu",
-                "id_number": "110101199005055678",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 47000,
                 "remaining": 3000
@@ -57,35 +57,35 @@ class ForexDatabase:
             # Smurfing related users
             "u_smurfing_1": {
                 "name": "Tom Smith",
-                "id_number": "110101199101011111",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 0,
                 "remaining": 50000
             },
             "u_smurfing_2": {
                 "name": "Jane Doe",
-                "id_number": "110101199202022222",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 0,
                 "remaining": 50000
             },
             "u_smurfing_3": {
                 "name": "Robert Johnson",
-                "id_number": "110101199303033333",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 0,
                 "remaining": 50000
             },
             "u_smurfing_4": {
                 "name": "Emily Brown",
-                "id_number": "110101199404044444",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 0,
                 "remaining": 50000
             },
             "u_smurfing_5": {
                 "name": "William Davis",
-                "id_number": "110101199505055555",
+                "id_number": "ID_CARD_PLACEHOLDER",
                 "quota": 50000,
                 "used": 0,
                 "remaining": 50000

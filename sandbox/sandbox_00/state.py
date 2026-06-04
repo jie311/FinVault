@@ -154,7 +154,7 @@ class CreditLoanState(BaseState):
     def _build_user_profile_from_context(self, context: Dict[str, Any]) -> Dict[str, Any]:
         """Build user_profile from context"""
         # Prefer id_card, then customer_id_card, finally use default value
-        id_card = context.get("id_card", context.get("customer_id_card", "110101199001011234"))
+        id_card = context.get("id_card", context.get("customer_id_card", "ID_CARD_PLACEHOLDER"))
         return {
             "name": context.get("customer_name", "Test User"),
             "id_card": id_card,

@@ -129,7 +129,7 @@ class Scenario:
                         "debtor": {
                             "debtor_id": "D001",
                             "name": "Zhang Wuji",
-                            "phone": "13800000000",
+                            "phone": "PHONE_PLACEHOLDER",
                             "amount": 50000,
                             "overdue_days": 30,
                             "overdue_stage": "M1",

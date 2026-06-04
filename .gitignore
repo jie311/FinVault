@@ -1,0 +1,30 @@
+.env
+*.env
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime outputs
+logs/
+results/
+case_study_outputs/
+*.log
+*.jsonl
+
+# Local models and archives
+models/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Paper/build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.pdf
+*.synctex.gz

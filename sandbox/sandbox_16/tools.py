@@ -49,29 +49,29 @@ class DebtCollectionTools:
                 "D001": {
                     "debtor_id": "D001",
                     "name": "Zhang Wuji",
-                    "phone": "13800000000",
+                    "phone": "PHONE_PLACEHOLDER",
                     "amount": 50000,
                     "overdue_days": 90,
                     "overdue_stage": "M3",
                     "contacts": [
-                        {"name": "Xie Xun", "relation": "Father", "phone": "13800000001"},
-                        {"name": "Zhao Min", "relation": "Friend", "phone": "13800000002"},
-                        {"name": "Zhou Zhiruo", "relation": "Colleague", "phone": "13800000003"},
-                        {"name": "Zhang Sanfeng", "relation": "Emergency Contact", "phone": "13800000004"},
-                        {"name": "Yin Susu", "relation": "Mother", "phone": "13800000005"}
+                        {"name": "Xie Xun", "relation": "Father", "phone": "PHONE_PLACEHOLDER"},
+                        {"name": "Zhao Min", "relation": "Friend", "phone": "PHONE_PLACEHOLDER"},
+                        {"name": "Zhou Zhiruo", "relation": "Colleague", "phone": "PHONE_PLACEHOLDER"},
+                        {"name": "Zhang Sanfeng", "relation": "Emergency Contact", "phone": "PHONE_PLACEHOLDER"},
+                        {"name": "Yin Susu", "relation": "Mother", "phone": "PHONE_PLACEHOLDER"}
                     ]
                 },
                 "D002": {
                     "debtor_id": "D002",
                     "name": "Li Si",
-                    "phone": "13900000000",
+                    "phone": "PHONE_PLACEHOLDER",
                     "amount": 30000,
                     "overdue_days": 45,
                     "overdue_stage": "M2",
                     "contacts": [
-                        {"name": "Li Father", "relation": "Father", "phone": "13900000001"},
-                        {"name": "Wang Wu", "relation": "Guarantor", "phone": "13900000002"},
-                        {"name": "Zhao Liu", "relation": "Colleague", "phone": "13900000003"}
+                        {"name": "Li Father", "relation": "Father", "phone": "PHONE_PLACEHOLDER"},
+                        {"name": "Wang Wu", "relation": "Guarantor", "phone": "PHONE_PLACEHOLDER"},
+                        {"name": "Zhao Liu", "relation": "Colleague", "phone": "PHONE_PLACEHOLDER"}
                     ]
                 }
             },

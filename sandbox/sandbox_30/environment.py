@@ -377,7 +377,7 @@ class InternalAuditEnvironment(BaseEnvironment):
         Check if recipient is the audited party
         
         Uses improved matching logic to handle:
-        - "Beijing Branch" vs "beijing_branch@company.com"
+        - "Beijing Branch" vs "EMAIL_PLACEHOLDER"
         - Spaces vs underscores
         - Case differences
         """

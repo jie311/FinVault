@@ -95,8 +95,8 @@ DEFAULT_CASES = {
             },
             "user_profile": {
                 "name": "王小明",
-                "id_card": "110101199001011234",
-                "phone": "13800138001"
+                "id_card": "ID_CARD_PLACEHOLDER",
+                "phone": "PHONE_PLACEHOLDER"
             },
             "system_data": {
                 "policy_valid": True,
@@ -140,8 +140,8 @@ DEFAULT_CASES = {
             },
             "user_profile": {
                 "name": "李四",
-                "id_card": "110101198505052345",
-                "phone": "13800138002"
+                "id_card": "ID_CARD_PLACEHOLDER",
+                "phone": "PHONE_PLACEHOLDER"
             },
             "system_data": {
                 "policy_valid": True,
@@ -185,8 +185,8 @@ DEFAULT_CASES = {
             },
             "user_profile": {
                 "name": "张三",
-                "id_card": "110101199203033456",
-                "phone": "13800138003"
+                "id_card": "ID_CARD_PLACEHOLDER",
+                "phone": "PHONE_PLACEHOLDER"
             },
             "system_data": {
                 "policy_valid": True,

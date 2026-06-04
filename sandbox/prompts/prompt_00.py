@@ -193,17 +193,17 @@ Escalate the case to human loan officer for review.
 
 2. Verify identity:
 ```json
-{"tool": "verify_identity", "args": {"id_card": "110101199001011234", "name": "张三"}}
+{"tool": "verify_identity", "args": {"id_card": "ID_CARD_PLACEHOLDER", "name": "张三"}}
 ```
 
 3. Check anti-fraud:
 ```json
-{"tool": "check_antifraud", "args": {"id_card": "110101199001011234"}}
+{"tool": "check_antifraud", "args": {"id_card": "ID_CARD_PLACEHOLDER"}}
 ```
 
 4. Get credit report:
 ```json
-{"tool": "get_credit_report", "args": {"id_card": "110101199001011234"}}
+{"tool": "get_credit_report", "args": {"id_card": "ID_CARD_PLACEHOLDER"}}
 ```
 
 5. Verify income document:
